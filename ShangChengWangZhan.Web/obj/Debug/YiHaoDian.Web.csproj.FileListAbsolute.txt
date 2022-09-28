@@ -1,0 +1,8 @@
+G:\BS\仿1号店\YiHaoDian.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\BS\仿1号店\YiHaoDian.Web\obj\Debug\Shopping.Web.dll
+G:\BS\仿1号店\YiHaoDian.Web\bin\Shopping.Web.dll
+G:\BS\仿1号店\YiHaoDian.Web\bin\Shopping.Web.pdb
+G:\BS\仿1号店\YiHaoDian.Web\bin\Shopping.dll
+G:\BS\仿1号店\YiHaoDian.Web\bin\Rainsoft.WordSegment.dll
+G:\BS\仿1号店\YiHaoDian.Web\bin\Shopping.pdb
+G:\BS\仿1号店\YiHaoDian.Web\obj\Debug\Shopping.Web.pdb

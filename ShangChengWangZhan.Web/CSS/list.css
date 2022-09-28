@@ -1,0 +1,40 @@
+﻿
+
+
+
+.filter{height:auto;border:1px solid #ddd;border-bottom:none;  }
+.filter table td{ border-bottom:1px solid #ddd;  }
+.filter .bt{padding-left:3px;}
+.filter h2{color:#2B64B8;font-size:12px;font-weight:normal;background:url(/images/img05.gif) no-repeat 0 center;padding-left:15px;}
+.filter ul{width:880px;overflow:hidden;}
+.filter li{float:left;padding:5px;line-height:18px;}
+.filter .bg{background:#E9F2Fb;}
+
+
+.filter .current ul li{float:left;}
+.filter .current ul a.cancel{background-image:url(/Images/icons/filter_current_close.gif);background-repeat:no-repeat;background-position:right 0;padding-right:15px;}
+.filter .current ul a.cancel:hover{background-image:url(/Images/icons/filter_current_close_hover.gif);}
+ 
+
+.sort-mode{ border-bottom:1px solid #ddd;height:23px;}
+.sort-mode ul li{  float:left;height:28px;line-height:26px;width:51px;font-size:14px; text-align:center;}
+.sort-mode ul li.selected{background:url(/images/tab_selected.png) no-repeat;}
+.sort-mode ul li.selected a:link,.sort-mode ul li.selected a:visited{color:#fff;}
+ 
+  /*列表页*/
+.main-body{padding-top:10px;}
+.list-5{width:990px;}
+.list-5 li{width:143px; padding:10px; border:1px solid #fff;float:left;display:inline;}
+.list-5 li:hover{border-color:#ededed;background:#ededed;}
+.list-5 .pic{width:140px;height:140px;text-align:center;background:#fff;position:relative;}
+.list-5 .pic .icons{position:absolute;top:0;left:0;width:50px;height:50px;display:block;}
+.list-5 .pic .icon-hot{background:url(/images/icons/hot2.gif) no-repeat;}
+.list-5 .pic .icon-new{background:url(/images/icons/new2.gif) no-repeat;}
+.list-5 .pic .icon-recommend{background:url(/images/icons/jian2.gif) no-repeat;}
+.list-5 .pic a{width:140px;height:14px;display:table-cell;vertical-align:middle;*display:block;*font-family:Arial;*font-size:154px;}
+.list-5 .pic img{vertical-align:middle;}
+.list-5 .name{margin-top:20px;line-height:18px;height:18px;white-space:nowrap;overflow:hidden;width:140px;}
+.list-5 .market-price{margin-top:5px;line-height:18px;}
+.list-5 .market-price del{color:#999;}
+.list-5 .price{margin-top:6px;line-height:24px;}
+.list-5 .price em{color:#df0011;font-size:16px;vertical-align:middle;}

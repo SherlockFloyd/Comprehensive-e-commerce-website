@@ -1,0 +1,116 @@
+﻿body {
+}
+html, body, div, label, input, img, form {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:12px;
+	color:#666;
+	text-align:center;
+}
+input {
+	border:none;
+}
+input[type="text"], input[type="password"] {
+	margin: 0 3px;
+ *margin: -1px 3px -1px;
+}
+input.text {
+	padding: 5px 4px 0 5px;
+	height: 24px;
+	border: 1px solid #92B3D2;
+	background-color:#FFFFFF;
+}
+input.text2 {
+	padding: 3px 2px 0 2px;
+	height: 20px;
+	border: 1px solid red;
+	background-color:#FFFFFF;
+}
+input[type="checkbox"] {
+	margin: 0 2px 1px 3px;
+	vertical-align: middle;
+}
+* html input.text, * html input.password {
+	margin: -1px 3px -1px;
+	padding: 5px 4px 0 5px;
+	height: 24px;
+	border: 1px solid #92B3D2;
+	background-color:#FFFFFF;
+}
+* html input.text2 {
+	margin: -1px 3px -1px;
+	padding: 3px 2px 0 2px;
+	height: 20px;
+	border: 1px solid red;
+	background-color:#FFFFFF;
+}
+* html input.checkbox {
+	margin: -3px -1px 0 0;
+	vertical-align: middle;
+}
+.main {
+	width:760px;
+	height:267px;
+	margin:auto;
+	position:relative;
+	text-align:left;
+}
+.main .background {
+	width:760px;
+	height:267px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	background:url(/base/images/bg.jpg) no-repeat;
+	_background-image:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/base/images/bg.jpg', sizingMethod='scale');
+}
+.main .login-form {
+	width:300px;
+	height:264px;
+	top:0;
+	right:42px;
+	position:absolute;
+	z-index:2;
+}
+.login-form .login-header {
+	margin-top:20px;
+	padding-left:24px;
+	font-weight:bold;
+	color:#097FBD;
+	font-size:14px;
+}
+.login-form .login-wrap {
+	padding-top:22px;
+}
+.login-form .form-item {
+	zoom:1;
+	height:30px;
+	margin-top:6px;
+}
+.login-form .form-item:after {
+}
+.login-form .form-item label {
+	float:left;
+	display:inline;
+	width:48px;
+	padding-left:36px;
+	padding-top:5px;
+}
+.login-form .form-item .form-field-item {
+	width:216px;
+	float:left;
+	display:inline;
+}
+.login-form .form-item .form-field-item .t1 {
+	float:left;
+	margin-left:3px;
+	display:inline
+}
+.login-form .form-item .form-field-item .t2 {
+	float:left;
+	display:inline
+}

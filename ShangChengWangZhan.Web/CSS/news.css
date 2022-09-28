@@ -1,0 +1,93 @@
+﻿.nltime
+{
+    width: 60px;
+    height: 60px;
+    background-color: #E2E2E2;
+    text-align: center;
+    float: left;
+}
+.nlday
+{
+    font-size: 34px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.nlmonth
+{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.nltitle
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "microsoft yahei" , "微软雅黑";
+    margin-bottom: 8px;
+    line-height: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.nltitle a, .nltitle a:hover
+{
+    color: #000000;
+}
+.nllb
+{
+    margin-top : 15px;
+    overflow: hidden;
+}
+.nllb li
+{
+    float: left;
+    width: 100%;
+    border-bottom: #F9507B 1px solid;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.nllbinfo
+{
+    margin-left: 75px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    height: 60px;
+    overflow: hidden;
+    color: #a5a5a5;
+}
+
+/*新闻内页代码*/
+.news_right
+{
+    overflow: hidden;
+}
+.news_content
+{
+    margin-top: 10px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.news_content h1
+{
+    font-size: 20px;
+    font-family: "microsoft yahei" , "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 20px;
+}
+.news_content li.time
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CCCCCC;
+    text-align: center;
+    border-bottom: dotted 1px #000000;
+    padding-bottom: 10px;
+}
+.news_content li.xiangqing
+{
+    font-size: 14px;
+    line-height: 22px;
+}

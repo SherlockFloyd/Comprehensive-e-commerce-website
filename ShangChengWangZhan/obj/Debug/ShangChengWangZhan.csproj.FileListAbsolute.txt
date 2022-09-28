@@ -1,0 +1,46 @@
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan\bin\Debug\Shopping.dll
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan\bin\Debug\Shopping.pdb
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csprojResolveAssemblyReference.cache
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan\obj\Debug\Shopping.dll
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan\obj\Debug\Shopping.pdb
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\bin\Debug\Shopping.dll
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\bin\Debug\Shopping.pdb
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csprojResolveAssemblyReference.cache
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\obj\Debug\Shopping.dll
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\obj\Debug\Shopping.pdb
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\bin\Debug\Shopping.dll
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\bin\Debug\Shopping.pdb
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\obj\Debug\Shopping.dll
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\obj\Debug\Shopping.pdb
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csprojResolveAssemblyReference.cache
+F:\2\商城网站\ShangChengWangZhan\bin\Debug\Shopping.dll
+F:\2\商城网站\ShangChengWangZhan\bin\Debug\Shopping.pdb
+F:\2\商城网站\ShangChengWangZhan\obj\Debug\Shopping.dll
+F:\2\商城网站\ShangChengWangZhan\obj\Debug\Shopping.pdb
+F:\2\最初\商城网站\ShangChengWangZhan\bin\Debug\Shopping.dll
+F:\2\最初\商城网站\ShangChengWangZhan\bin\Debug\Shopping.pdb
+F:\2\最初\商城网站\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csprojResolveAssemblyReference.cache
+F:\2\最初\商城网站\ShangChengWangZhan\obj\Debug\Shopping.dll
+F:\2\最初\商城网站\ShangChengWangZhan\obj\Debug\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.pdb
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.dll
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\bin\Debug\Shopping.pdb
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csproj.AssemblyReference.cache
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csproj.CoreCompileInputs.cache
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\obj\Debug\ShangChengWangZhan.csproj.CopyComplete
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.dll
+D:\Web网站\100-1-6jm\源码\源代码文件\ShangChengWangZhan\obj\Debug\Shopping.pdb

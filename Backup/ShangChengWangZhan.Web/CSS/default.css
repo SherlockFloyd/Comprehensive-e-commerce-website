@@ -1,0 +1,31 @@
+﻿
+/* 公告 */
+.affiche{border: 1px solid #dedede;height:200px;}
+.affiche .hd{padding-left:5px;background-image:url(/images/topbar.gif);background-repeat:repeat-x;height:30px;border-bottom:1px solid #dedede;}
+.affiche .hd em{color:#000; font-size:12px; font-weight:bolder; background:url(/images/img05.gif)  no-repeat 0 center; padding-left: 15px;line-height:30px;}
+.affiche .hd a{float:right;line-height:30px; padding-right:10px;}
+.affiche .bd{padding-top: 8px;*zoom:1;}
+.affiche li{line-height: 20px;padding-left:10px; width:260px; overflow:hidden; height:22px; line-height:22px; }
+.affiche a.hl:link,.affiche a.hl:visited{color: #df0011;}
+
+.ads{padding-top:10px;}
+.ads  img{width:280px; height:190px;}
+
+
+/* 合作出版社-B */
+
+.press-title{padding-left:5px;background-image:url(/images/topbar.gif);background-repeat:repeat-x;height:30px;border: 1px solid #dedede;}
+.press-title .hd em{color:#000; font-size:12px; font-weight:bolder; background:url(/images/img05.gif)  no-repeat 0 center; padding-left: 15px;line-height:30px;}
+.press-title .hd a{float:right;line-height:30px; padding-right:10px;}
+
+.press-wrap{border:1px solid #dedede;border-top:none; background:#f9f9f9; padding-top:5px; padding-left:8px; padding-right:8px;  position:relative;}
+.press-wrap img{ border:none;}
+.press-wrap li{float:left;width:80px;height:120px; text-align:center;}
+.press-wrap li .pic{ height:90px;}
+.press-wrap li a{display:block;width:70px;height:68px;}
+.press-wrap li i{display:block;width:56px;height:90px;}
+.press-wrap li em{ padding-top:2px; text-align:center;}
+.press-wrap .name{  height:18px; line-height:18px; width:80px; overflow:hidden;}
+
+/* 合作出版社-E */
+

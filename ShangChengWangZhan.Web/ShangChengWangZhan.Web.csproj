@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30120E3B-E5E9-4924-8BFF-AC5AB3175527}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shopping.Web</RootNamespace>
+    <AssemblyName>Shopping.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\Ajax_ConfirmOrder.aspx" />
+    <Content Include="Ajax\Ajax_Detail.aspx" />
+    <Content Include="Ajax\Ajax_GetRateList.aspx" />
+    <Content Include="Ajax\Ajax_ShoppingCart.aspx" />
+    <Content Include="base\login_css.css" />
+    <Content Include="CompleteOrder.aspx" />
+    <Content Include="ConfirmOrder.aspx" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\Header.ascx" />
+    <Content Include="CSS\Common.css" />
+    <Content Include="CSS\css.css" />
+    <Content Include="CSS\default.css" />
+    <Content Include="CSS\Detail.css" />
+    <Content Include="CSS\global_site_index_new.css" />
+    <Content Include="CSS\index_top.css" />
+    <Content Include="CSS\jquery.validity.css" />
+    <Content Include="CSS\list.css" />
+    <Content Include="CSS\Manage.css" />
+    <Content Include="CSS\member.css" />
+    <Content Include="CSS\miui.common.css" />
+    <Content Include="CSS\Newcss.css" />
+    <Content Include="CSS\news.css" />
+    <Content Include="CSS\shoppingcart.css" />
+    <Content Include="CSS\zTreeStyle.css" />
+    <Content Include="Detail.aspx" />
+    <Content Include="Images\add_cart_btn.png" />
+    <Content Include="Images\ads\1.jpg" />
+    <Content Include="Images\ads\2.jpg" />
+    <Content Include="Images\ads\3.jpg" />
+    <Content Include="Images\ads\4.jpg" />
+    <Content Include="Images\ad_close.gif" />
+    <Content Include="Images\aptabbg.jpg" />
+    <Content Include="Images\aptabbg2.jpg" />
+    <Content Include="Images\aptab_footer2.jpg" />
+    <Content Include="Images\aptab_header.jpg" />
+    <Content Include="Images\aptab_header2.jpg" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg14.jpg" />
+    <Content Include="Images\bg3.jpg" />
+    <Content Include="Images\bg7.png" />
+    <Content Include="Images\bg8.jpg" />
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\bottom.jpg" />
+    <Content Include="Images\br_bg_sprite.png" />
+    <Content Include="Images\br_topbg.png" />
+    <Content Include="Images\btn_action.png" />
+    <Content Include="Images\btn_sprite.png" />
+    <Content Include="Images\dot.png" />
+    <Content Include="Images\growth_sprite.png" />
+    <Content Include="Images\header_skin_w1200.png" />
+    <Content Include="Images\header_skin_w980.png" />
+    <Content Include="Images\ie_upgrade.png" />
+    <Content Include="Images\indexhead_sprite.png" />
+    <Content Include="Images\index_sprite.png" />
+    <Content Include="Images\index_sprites.png" />
+    <Content Include="Images\label_bg.png" />
+    <Content Include="Images\loading-yhdupdate_01.gif" />
+    <Content Include="Images\login\btn.jpg" />
+    <Content Include="Images\login\btn_hover.jpg" />
+    <Content Include="Images\login\login.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\popbg.png" />
+    <Content Include="Images\prev.png" />
+    <Content Include="Images\province_sprites.png" />
+    <Content Include="Images\sprite.png" />
+    <Content Include="Images\user_bg.gif" />
+    <Content Include="Images\yhdlib.gif" />
+    <Content Include="Index.aspx" />
+    <Content Include="JS\base.js" />
+    <Content Include="JS\common.js" />
+    <Content Include="JS\Detail.js" />
+    <Content Include="JS\global_index_top_new.js" />
+    <Content Include="JS\index.js" />
+    <Content Include="JS\index_news.js" />
+    <Content Include="JS\jquery-1.7.1.min.js" />
+    <Content Include="JS\jquery-1.8.0.min.js" />
+    <Content Include="JS\jquery.pager.js" />
+    <Content Include="JS\jquery.validity.js" />
+    <Content Include="JS\jquery.validity.min.js" />
+    <Content Include="JS\jquery.ztree.core-3.5.js" />
+    <Content Include="JS\jquery.ztree.excheck-3.5.js" />
+    <Content Include="JS\jquery.ztree.exedit-3.5.js" />
+    <Content Include="JS\layer.js" />
+    <Content Include="JS\layer.min.js" />
+    <Content Include="JS\layer\layer.js" />
+    <Content Include="JS\layer\layer.min.js" />
+    <Content Include="JS\layer\skin\default\xubox_ico0.png" />
+    <Content Include="JS\layer\skin\default\xubox_loading0.gif" />
+    <Content Include="JS\layer\skin\default\xubox_loading1.gif" />
+    <Content Include="JS\layer\skin\default\xubox_loading2.gif" />
+    <Content Include="JS\layer\skin\default\xubox_loading3.gif" />
+    <Content Include="JS\layer\skin\default\xubox_title0.png" />
+    <Content Include="JS\layer\skin\layer.css" />
+    <Content Include="JS\skin\default\xubox_ico0.png" />
+    <Content Include="JS\skin\default\xubox_loading0.gif" />
+    <Content Include="JS\skin\default\xubox_loading1.gif" />
+    <Content Include="JS\skin\default\xubox_loading2.gif" />
+    <Content Include="JS\skin\default\xubox_loading3.gif" />
+    <Content Include="JS\skin\default\xubox_title0.png" />
+    <Content Include="JS\skin\layer.css" />
+    <Content Include="kindeditor\kindeditor-min.js" />
+    <Content Include="kindeditor\kindeditor.js" />
+    <Content Include="kindeditor\plugins\about.html" />
+    <Content Include="kindeditor\plugins\advtable\advtable.html" />
+    <Content Include="kindeditor\plugins\datetime\datetime.css" />
+    <Content Include="kindeditor\plugins\datetime\datetime.js" />
+    <Content Include="kindeditor\plugins\datetime\index.html" />
+    <Content Include="kindeditor\plugins\emoticons\0.gif" />
+    <Content Include="kindeditor\plugins\emoticons\1.gif" />
+    <Content Include="kindeditor\plugins\emoticons\10.gif" />
+    <Content Include="kindeditor\plugins\emoticons\100.gif" />
+    <Content Include="kindeditor\plugins\emoticons\101.gif" />
+    <Content Include="kindeditor\plugins\emoticons\102.gif" />
+    <Content Include="kindeditor\plugins\emoticons\103.gif" />
+    <Content Include="kindeditor\plugins\emoticons\104.gif" />
+    <Content Include="kindeditor\plugins\emoticons\105.gif" />
+    <Content Include="kindeditor\plugins\emoticons\106.gif" />
+    <Content Include="kindeditor\plugins\emoticons\107.gif" />
+    <Content Include="kindeditor\plugins\emoticons\108.gif" />
+    <Content Include="kindeditor\plugins\emoticons\109.gif" />
+    <Content Include="kindeditor\plugins\emoticons\11.gif" />
+    <Content Include="kindeditor\plugins\emoticons\110.gif" />
+    <Content Include="kindeditor\plugins\emoticons\111.gif" />
+    <Content Include="kindeditor\plugins\emoticons\112.gif" />
+    <Content Include="kindeditor\plugins\emoticons\113.gif" />
+    <Content Include="kindeditor\plugins\emoticons\114.gif" />
+    <Content Include="kindeditor\plugins\emoticons\115.gif" />
+    <Content Include="kindeditor\plugins\emoticons\116.gif" />
+    <Content Include="kindeditor\plugins\emoticons\117.gif" />
+    <Content Include="kindeditor\plugins\emoticons\118.gif" />
+    <Content Include="kindeditor\plugins\emoticons\119.gif" />
+    <Content Include="kindeditor\plugins\emoticons\12.gif" />
+    <Content Include="kindeditor\plugins\emoticons\120.gif" />
+    <Content Include="kindeditor\plugins\emoticons\121.gif" />
+    <Content Include="kindeditor\plugins\emoticons\122.gif" />
+    <Content Include="kindeditor\plugins\emoticons\123.gif" />
+    <Content Include="kindeditor\plugins\emoticons\124.gif" />
+    <Content Include="kindeditor\plugins\emoticons\125.gif" />
+    <Content Include="kindeditor\plugins\emoticons\126.gif" />
+    <Content Include="kindeditor\plugins\emoticons\127.gif" />
+    <Content Include="kindeditor\plugins\emoticons\128.gif" />
+    <Content Include="kindeditor\plugins\emoticons\129.gif" />
+    <Content Include="kindeditor\plugins\emoticons\13.gif" />
+    <Content Include="kindeditor\plugins\emoticons\130.gif" />
+    <Content Include="kindeditor\plugins\emoticons\131.gif" />
+    <Content Include="kindeditor\plugins\emoticons\132.gif" />
+    <Content Include="kindeditor\plugins\emoticons\133.gif" />
+    <Content Include="kindeditor\plugins\emoticons\134.gif" />
+    <Content Include="kindeditor\plugins\emoticons\14.gif" />
+    <Content Include="kindeditor\plugins\emoticons\15.gif" />
+    <Content Include="kindeditor\plugins\emoticons\16.gif" />
+    <Content Include="kindeditor\plugins\emoticons\17.gif" />
+    <Content Include="kindeditor\plugins\emoticons\18.gif" />
+    <Content Include="kindeditor\plugins\emoticons\19.gif" />
+    <Content Include="kindeditor\plugins\emoticons\2.gif" />
+    <Content Include="kindeditor\plugins\emoticons\20.gif" />
+    <Content Include="kindeditor\plugins\emoticons\21.gif" />
+    <Content Include="kindeditor\plugins\emoticons\22.gif" />
+    <Content Include="kindeditor\plugins\emoticons\23.gif" />
+    <Content Include="kindeditor\plugins\emoticons\24.gif" />
+    <Content Include="kindeditor\plugins\emoticons\25.gif" />
+    <Content Include="kindeditor\plugins\emoticons\26.gif" />
+    <Content Include="kindeditor\plugins\emoticons\27.gif" />
+    <Content Include="kindeditor\plugins\emoticons\28.gif" />
+    <Content Include="kindeditor\plugins\emoticons\29.gif" />
+    <Content Include="kindeditor\plugins\emoticons\3.gif" />
+    <Content Include="kindeditor\plugins\emoticons\30.gif" />
+    <Content Include="kindeditor\plugins\emoticons\31.gif" />
+    <Content Include="kindeditor\plugins\emoticons\32.gif" />
+    <Content Include="kindeditor\plugins\emoticons\33.gif" />
+    <Content Include="kindeditor\plugins\emoticons\34.gif" />
+    <Content Include="kindeditor\plugins\emoticons\35.gif" />
+    <Content Include="kindeditor\plugins\emoticons\36.gif" />
+    <Content Include="kindeditor\plugins\emoticons\37.gif" />
+    <Content Include="kindeditor\plugins\emoticons\38.gif" />
+    <Content Include="kindeditor\plugins\emoticons\39.gif" />
+    <Content Include="kindeditor\plugins\emoticons\4.gif" />
+    <Content Include="kindeditor\plugins\emoticons\40.gif" />
+    <Content Include="kindeditor\plugins\emoticons\41.gif" />
+    <Content Include="kindeditor\plugins\emoticons\42.gif" />
+    <Content Include="kindeditor\plugins\emoticons\43.gif" />
+    <Content Include="kindeditor\plugins\emoticons\44.gif" />
+    <Content Include="kindeditor\plugins\emoticons\45.gif" />
+    <Content Include="kindeditor\plugins\emoticons\46.gif" />
+    <Content Include="kindeditor\plugins\emoticons\47.gif" />
+    <Content Include="kindeditor\plugins\emoticons\48.gif" />
+    <Content Include="kindeditor\plugins\emoticons\49.gif" />
+    <Content Include="kindeditor\plugins\emoticons\5.gif" />
+    <Content Include="kindeditor\plugins\emoticons\50.gif" />
+    <Content Include="kindeditor\plugins\emoticons\51.gif" />
+    <Content Include="kindeditor\plugins\emoticons\52.gif" />
+    <Content Include="kindeditor\plugins\emoticons\53.gif" />
+    <Content Include="kindeditor\plugins\emoticons\54.gif" />
+    <Content Include="kindeditor\plugins\emoticons\55.gif" />
+    <Content Include="kindeditor\plugins\emoticons\56.gif" />
+    <Content Include="kindeditor\plugins\emoticons\57.gif" />
+    <Content Include="kindeditor\plugins\emoticons\58.gif" />
+    <Content Include="kindeditor\plugins\emoticons\59.gif" />
+    <Content Include="kindeditor\plugins\emoticons\6.gif" />
+    <Content Include="kindeditor\plugins\emoticons\60.gif" />
+    <Content Include="kindeditor\plugins\emoticons\61.gif" />
+    <Content Include="kindeditor\plugins\emoticons\62.gif" />
+    <Content Include="kindeditor\plugins\emoticons\63.gif" />
+    <Content Include="kindeditor\plugins\emoticons\64.gif" />
+    <Content Include="kindeditor\plugins\emoticons\65.gif" />
+    <Content Include="kindeditor\plugins\emoticons\66.gif" />
+    <Content Include="kindeditor\plugins\emoticons\67.gif" />
+    <Content Include="kindeditor\plugins\emoticons\68.gif" />
+    <Content Include="kindeditor\plugins\emoticons\69.gif" />
+    <Content Include="kindeditor\plugins\emoticons\7.gif" />
+    <Content Include="kindeditor\plugins\emoticons\70.gif" />
+    <Content Include="kindeditor\plugins\emoticons\71.gif" />
+    <Content Include="kindeditor\plugins\emoticons\72.gif" />
+    <Content Include="kindeditor\plugins\emoticons\73.gif" />
+    <Content Include="kindeditor\plugins\emoticons\74.gif" />
+    <Content Include="kindeditor\plugins\emoticons\75.gif" />
+    <Content Include="kindeditor\plugins\emoticons\76.gif" />
+    <Content Include="kindeditor\plugins\emoticons\77.gif" />
+    <Content Include="kindeditor\plugins\emoticons\78.gif" />
+    <Content Include="kindeditor\plugins\emoticons\79.gif" />
+    <Content Include="kindeditor\plugins\emoticons\8.gif" />
+    <Content Include="kindeditor\plugins\emoticons\80.gif" />
+    <Content Include="kindeditor\plugins\emoticons\81.gif" />
+    <Content Include="kindeditor\plugins\emoticons\82.gif" />
+    <Content Include="kindeditor\plugins\emoticons\83.gif" />
+    <Content Include="kindeditor\plugins\emoticons\84.gif" />
+    <Content Include="kindeditor\plugins\emoticons\85.gif" />
+    <Content Include="kindeditor\plugins\emoticons\86.gif" />
+    <Content Include="kindeditor\plugins\emoticons\87.gif" />
+    <Content Include="kindeditor\plugins\emoticons\88.gif" />
+    <Content Include="kindeditor\plugins\emoticons\89.gif" />
+    <Content Include="kindeditor\plugins\emoticons\9.gif" />
+    <Content Include="kindeditor\plugins\emoticons\91.gif" />
+    <Content Include="kindeditor\plugins\emoticons\92.gif" />
+    <Content Include="kindeditor\plugins\emoticons\93.gif" />
+    <Content Include="kindeditor\plugins\emoticons\94.gif" />
+    <Content Include="kindeditor\plugins\emoticons\95.gif" />
+    <Content Include="kindeditor\plugins\emoticons\96.gif" />
+    <Content Include="kindeditor\plugins\emoticons\97.gif" />
+    <Content Include="kindeditor\plugins\emoticons\98.gif" />
+    <Content Include="kindeditor\plugins\emoticons\99.gif" />
+    <Content Include="kindeditor\plugins\emoticons\qq.gif" />
+    <Content Include="kindeditor\plugins\file_manager\file_manager.css" />
+    <Content Include="kindeditor\plugins\file_manager\file_manager.html" />
+    <Content Include="kindeditor\plugins\file_manager\file_manager.js" />
+    <Content Include="kindeditor\plugins\file_manager\images\file-16.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\file-64.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\folder-16.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\folder-64.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\go-up.gif" />
+    <Content Include="kindeditor\plugins\flash.html" />
+    <Content Include="kindeditor\plugins\image\image.html" />
+    <Content Include="kindeditor\plugins\image\images\align_left.gif" />
+    <Content Include="kindeditor\plugins\image\images\align_right.gif" />
+    <Content Include="kindeditor\plugins\image\images\align_top.gif" />
+    <Content Include="kindeditor\plugins\image\images\refresh.gif" />
+    <Content Include="kindeditor\plugins\image\multiimage.html" />
+    <Content Include="kindeditor\plugins\link\link.html" />
+    <Content Include="kindeditor\plugins\media.html" />
+    <Content Include="kindeditor\plugins\plainpaste.html" />
+    <Content Include="kindeditor\plugins\wordpaste.html" />
+    <Content Include="kindeditor\skins\common\blank.gif" />
+    <Content Include="kindeditor\skins\common\editor.css" />
+    <Content Include="kindeditor\skins\common\flash.gif" />
+    <Content Include="kindeditor\skins\common\loading.gif" />
+    <Content Include="kindeditor\skins\common\media.gif" />
+    <Content Include="kindeditor\skins\common\rm.gif" />
+    <Content Include="kindeditor\skins\default.css" />
+    <Content Include="kindeditor\skins\default\default.gif" />
+    <Content Include="kindeditor\skins\default\IMAGES.gif" />
+    <Content Include="kindeditor\skins\default\page.gif" />
+    <Content Include="kindeditor\skins\default\PICTURES.gif" />
+    <Content Include="kindeditor\UploadFile.aspx" />
+    <Content Include="List.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Manage\AdminEdit.aspx" />
+    <Content Include="Manage\AdminList.aspx" />
+    <Content Include="Manage\CommodityEdit.aspx" />
+    <Content Include="Manage\Password.aspx" />
+    <Content Include="Manage\CommodityList.aspx" />
+    <Content Include="Manage\CateEdit.aspx" />
+    <Content Include="Manage\CateList.aspx" />
+    <Content Include="Manage\Index.aspx" />
+    <Content Include="Manage\Inforcenter.aspx" />
+    <Content Include="Manage\Login.aspx" />
+    <Content Include="Manage\NoticeEdit.aspx" />
+    <Content Include="Manage\NoticeList.aspx" />
+    <Content Include="Manage\OrderDetail.aspx" />
+    <Content Include="Manage\OrderList.aspx" />
+    <Content Include="Manage\RateList.aspx" />
+    <Content Include="Manage\UserList.aspx" />
+    <Content Include="Manage\NewsList.aspx" />
+    <Content Include="Manage\NewsEdit.aspx" />
+    <Content Include="Member\AttentionList.aspx" />
+    <Content Include="Member\DeliveryEdit.aspx" />
+    <Content Include="Member\DeliveryList.aspx" />
+    <Content Include="Member\Index.aspx" />
+    <Content Include="Member\Information.aspx" />
+    <Content Include="Member\Lefter.ascx" />
+    <Content Include="Member\OrderDetail.aspx" />
+    <Content Include="Member\OrderList.aspx" />
+    <Content Include="Member\Password.aspx" />
+    <Content Include="Member\PostRate.aspx" />
+    <Content Include="Member\RateList.aspx" />
+    <Content Include="NoticeDetail.aspx" />
+    <Content Include="NoticeList.aspx" />
+    <Content Include="Pay.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="ShoppingCart.aspx" />
+    <Content Include="ShoppingCartEx.aspx" />
+    <Content Include="VerifyImage.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="NewsList.aspx" />
+    <Content Include="NewsDetail.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajax\Ajax_ConfirmOrder.aspx.cs">
+      <DependentUpon>Ajax_ConfirmOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Ajax_ConfirmOrder.aspx.designer.cs">
+      <DependentUpon>Ajax_ConfirmOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Ajax_Detail.aspx.cs">
+      <DependentUpon>Ajax_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Ajax_Detail.aspx.designer.cs">
+      <DependentUpon>Ajax_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Ajax_GetRateList.aspx.cs">
+      <DependentUpon>Ajax_GetRateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Ajax_GetRateList.aspx.designer.cs">
+      <DependentUpon>Ajax_GetRateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Ajax_ShoppingCart.aspx.cs">
+      <DependentUpon>Ajax_ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Ajax_ShoppingCart.aspx.designer.cs">
+      <DependentUpon>Ajax_ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\AdminEdit.aspx.cs">
+      <DependentUpon>AdminEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\AdminEdit.aspx.designer.cs">
+      <DependentUpon>AdminEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\AdminList.aspx.cs">
+      <DependentUpon>AdminList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\AdminList.aspx.designer.cs">
+      <DependentUpon>AdminList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\CommodityEdit.aspx.cs">
+      <DependentUpon>CommodityEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\CommodityEdit.aspx.designer.cs">
+      <DependentUpon>CommodityEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Password.aspx.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Password.aspx.designer.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\CommodityList.aspx.cs">
+      <DependentUpon>CommodityList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\CommodityList.aspx.designer.cs">
+      <DependentUpon>CommodityList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\CateEdit.aspx.cs">
+      <DependentUpon>CateEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\CateEdit.aspx.designer.cs">
+      <DependentUpon>CateEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\CateList.aspx.cs">
+      <DependentUpon>CateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\CateList.aspx.designer.cs">
+      <DependentUpon>CateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Inforcenter.aspx.cs">
+      <DependentUpon>Inforcenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Inforcenter.aspx.designer.cs">
+      <DependentUpon>Inforcenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\NoticeEdit.aspx.cs">
+      <DependentUpon>NoticeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\NoticeEdit.aspx.designer.cs">
+      <DependentUpon>NoticeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\NoticeList.aspx.cs">
+      <DependentUpon>NoticeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\NoticeList.aspx.designer.cs">
+      <DependentUpon>NoticeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\OrderDetail.aspx.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\OrderDetail.aspx.designer.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\RateList.aspx.cs">
+      <DependentUpon>RateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\RateList.aspx.designer.cs">
+      <DependentUpon>RateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\NewsList.aspx.cs">
+      <DependentUpon>NewsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\NewsList.aspx.designer.cs">
+      <DependentUpon>NewsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\NewsEdit.aspx.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\NewsEdit.aspx.designer.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\AttentionList.aspx.cs">
+      <DependentUpon>AttentionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\AttentionList.aspx.designer.cs">
+      <DependentUpon>AttentionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\DeliveryEdit.aspx.cs">
+      <DependentUpon>DeliveryEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\DeliveryEdit.aspx.designer.cs">
+      <DependentUpon>DeliveryEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\DeliveryList.aspx.cs">
+      <DependentUpon>DeliveryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\DeliveryList.aspx.designer.cs">
+      <DependentUpon>DeliveryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\Information.aspx.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Information.aspx.designer.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\Lefter.ascx.cs">
+      <DependentUpon>Lefter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Lefter.ascx.designer.cs">
+      <DependentUpon>Lefter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\OrderDetail.aspx.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\OrderDetail.aspx.designer.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\Password.aspx.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Password.aspx.designer.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\PostRate.aspx.cs">
+      <DependentUpon>PostRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\PostRate.aspx.designer.cs">
+      <DependentUpon>PostRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\RateList.aspx.cs">
+      <DependentUpon>RateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\RateList.aspx.designer.cs">
+      <DependentUpon>RateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeList.aspx.cs">
+      <DependentUpon>NoticeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeList.aspx.designer.cs">
+      <DependentUpon>NoticeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompleteOrder.aspx.cs">
+      <DependentUpon>CompleteOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompleteOrder.aspx.designer.cs">
+      <DependentUpon>CompleteOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmOrder.aspx.cs">
+      <DependentUpon>ConfirmOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmOrder.aspx.designer.cs">
+      <DependentUpon>ConfirmOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Detail.aspx.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Detail.aspx.designer.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kindeditor\UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kindeditor\UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeDetail.aspx.cs">
+      <DependentUpon>NoticeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeDetail.aspx.designer.cs">
+      <DependentUpon>NoticeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pay.aspx.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pay.aspx.designer.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NewsList.aspx.cs">
+      <DependentUpon>NewsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsList.aspx.designer.cs">
+      <DependentUpon>NewsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsDetail.aspx.cs">
+      <DependentUpon>NewsDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsDetail.aspx.designer.cs">
+      <DependentUpon>NewsDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCartEx.aspx.cs">
+      <DependentUpon>ShoppingCartEx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCartEx.aspx.designer.cs">
+      <DependentUpon>ShoppingCartEx.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShangChengWangZhan\ShangChengWangZhan.csproj">
+      <Project>{78941593-1291-44C6-8D0B-143C9F5A204E}</Project>
+      <Name>Shopping</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Manage\Config\ManageMenu.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19511</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

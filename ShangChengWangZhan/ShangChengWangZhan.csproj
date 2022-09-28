@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78941593-1291-44C6-8D0B-143C9F5A204E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shopping</RootNamespace>
+    <AssemblyName>Shopping</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="Rainsoft.WordSegment">
+      <HintPath>..\DLL\Rainsoft.WordSegment.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Shopping_Admin.cs" />
+    <Compile Include="BLL\Shopping_Attention.cs" />
+    <Compile Include="BLL\Shopping_Commodity.cs" />
+    <Compile Include="BLL\Shopping_Cate.cs" />
+    <Compile Include="BLL\Shopping_Delivery.cs" />
+    <Compile Include="BLL\Shopping_Notice.cs" />
+    <Compile Include="BLL\Shopping_Order.cs" />
+    <Compile Include="BLL\Shopping_Rate.cs" />
+    <Compile Include="BLL\Shopping_ShoppingCart.cs" />
+    <Compile Include="BLL\Shopping_Snapshot.cs" />
+    <Compile Include="BLL\Shopping_TimerServiceLog.cs" />
+    <Compile Include="BLL\Shopping_User.cs" />
+    <Compile Include="BLL\Shopping_VisitLog.cs" />
+    <Compile Include="BLL\Shopping_News.cs" />
+    <Compile Include="DAL\Shopping_News.cs" />
+    <Compile Include="LuceneUtils.cs" />
+    <Compile Include="Common\Cookie.cs" />
+    <Compile Include="Common\DataGrid.cs" />
+    <Compile Include="Common\Mail.cs" />
+    <Compile Include="Common\Pager.cs" />
+    <Compile Include="Common\Requests.cs" />
+    <Compile Include="Common\Span.cs" />
+    <Compile Include="Common\SqlDB.cs" />
+    <Compile Include="Common\SqlHelper.cs" />
+    <Compile Include="Common\Upload.cs" />
+    <Compile Include="Common\Utils.cs" />
+    <Compile Include="Common\Validator.cs" />
+    <Compile Include="Common\VerifyImage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\WebUtility.cs" />
+    <Compile Include="DAL\Shopping_Admin.cs" />
+    <Compile Include="DAL\Shopping_Attention.cs" />
+    <Compile Include="DAL\Shopping_Commodity.cs" />
+    <Compile Include="DAL\Shopping_Cate.cs" />
+    <Compile Include="DAL\Shopping_Delivery.cs" />
+    <Compile Include="DAL\Shopping_Notice.cs" />
+    <Compile Include="DAL\Shopping_Order.cs" />
+    <Compile Include="DAL\Shopping_Rate.cs" />
+    <Compile Include="DAL\Shopping_ShoppingCart.cs" />
+    <Compile Include="DAL\Shopping_Snapshot.cs" />
+    <Compile Include="DAL\Shopping_TimerServiceLog.cs" />
+    <Compile Include="DAL\Shopping_User.cs" />
+    <Compile Include="DAL\Shopping_VisitLog.cs" />
+    <Compile Include="ManagePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUtils.cs" />
+    <Compile Include="MemberPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberUtils.cs" />
+    <Compile Include="Model\ListPageUrlInfo.cs" />
+    <Compile Include="Model\OnLineUserInfo.cs" />
+    <Compile Include="Model\Shopping_Admin.cs" />
+    <Compile Include="Model\Shopping_Attention.cs" />
+    <Compile Include="Model\Shopping_Commodity.cs" />
+    <Compile Include="Model\Shopping_Cate.cs" />
+    <Compile Include="Model\Shopping_Consult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Shopping_Delivery.cs" />
+    <Compile Include="Model\Shopping_Notice.cs" />
+    <Compile Include="Model\Shopping_Order.cs" />
+    <Compile Include="Model\Shopping_Rate.cs" />
+    <Compile Include="Model\Shopping_ShoppingCart.cs" />
+    <Compile Include="Model\Shopping_Snapshot.cs" />
+    <Compile Include="Model\Shopping_TimerServiceLog.cs" />
+    <Compile Include="Model\Shopping_User.cs" />
+    <Compile Include="Model\Shopping_VisitLog.cs" />
+    <Compile Include="Model\Shopping_News.cs" />
+    <Compile Include="OnLineUser.cs" />
+    <Compile Include="OrderEnum.cs" />
+    <Compile Include="OrderUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SexEnum.cs" />
+    <Compile Include="ShoppingCart.cs" />
+    <Compile Include="StockChangeType.cs" />
+    <Compile Include="UrlFactory.cs" />
+    <Compile Include="VisitLog.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

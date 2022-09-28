@@ -1,0 +1,58 @@
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\bin\Shopping.dll
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\bin\Shopping.pdb
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\obj\Debug\ShangChengWangZhan.Web.csprojResolveAssemblyReference.cache
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+G:\2016新系统\翻新\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.dll
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.pdb
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\obj\Debug\ShangChengWangZhan.Web.csprojResolveAssemblyReference.cache
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+C:\Users\超凡\Desktop\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.dll
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\bin\Shopping.pdb
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\obj\Debug\ShangChengWangZhan.Web.csprojResolveAssemblyReference.cache
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+F:\2\3-29 ASP.NET 购物网站 程序\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb
+F:\2\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+F:\2\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+F:\2\商城网站\ShangChengWangZhan.Web\bin\Shopping.dll
+F:\2\商城网站\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+F:\2\商城网站\ShangChengWangZhan.Web\bin\Shopping.pdb
+F:\2\商城网站\ShangChengWangZhan.Web\obj\Debug\ShangChengWangZhan.Web.csprojResolveAssemblyReference.cache
+F:\2\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+F:\2\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb
+F:\2\最初\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+F:\2\最初\商城网站\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+F:\2\最初\商城网站\ShangChengWangZhan.Web\bin\Shopping.dll
+F:\2\最初\商城网站\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+F:\2\最初\商城网站\ShangChengWangZhan.Web\bin\Shopping.pdb
+F:\2\最初\商城网站\ShangChengWangZhan.Web\obj\Debug\ShangChengWangZhan.Web.csprojResolveAssemblyReference.cache
+F:\2\最初\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+F:\2\最初\商城网站\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\bin\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\bin\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\基于ASP.NET的网上购物系统的设计与实现（\源代码文件\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\bin\Shopping.Web.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\bin\Shopping.Web.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\bin\Shopping.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\bin\Rainsoft.WordSegment.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\bin\Shopping.pdb
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.dll
+C:\Users\Administrator\Desktop\佳测bug\已测\基于ASP.NET的网上购物系统的设计与实现\（已整理）基于ASP.NET的网上购物系统的设计与实现\源码\源代码文件\ShangChengWangZhan.Web\obj\Debug\Shopping.Web.pdb

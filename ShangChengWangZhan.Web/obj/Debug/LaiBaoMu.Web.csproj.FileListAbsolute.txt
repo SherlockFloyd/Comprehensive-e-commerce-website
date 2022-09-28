@@ -1,0 +1,8 @@
+G:\BS\菜保姆网上购物\YiHaoDian.Web\bin\Shopping.Web.dll
+G:\BS\菜保姆网上购物\YiHaoDian.Web\bin\Shopping.Web.pdb
+G:\BS\菜保姆网上购物\YiHaoDian.Web\bin\Shopping.dll
+G:\BS\菜保姆网上购物\YiHaoDian.Web\bin\Rainsoft.WordSegment.dll
+G:\BS\菜保姆网上购物\YiHaoDian.Web\bin\Shopping.pdb
+G:\BS\菜保姆网上购物\YiHaoDian.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\BS\菜保姆网上购物\YiHaoDian.Web\obj\Debug\Shopping.Web.dll
+G:\BS\菜保姆网上购物\YiHaoDian.Web\obj\Debug\Shopping.Web.pdb
